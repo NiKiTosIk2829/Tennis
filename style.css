@@ -1,0 +1,41 @@
+* {
+    box-sizing:border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.background {
+    min-height: 1000px;
+    background: url("../Tennis/assets/img/background.jpg") center center/cover no-repeat;
+}
+
+.header {
+    display: flex;
+    padding: 30px 312px;
+    border-bottom: 1px solid #fff;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0 188.6px 0 124px;
+    gap: 40px;
+    font-size: 14px;
+    height: 100%;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 29.6px;
+}
