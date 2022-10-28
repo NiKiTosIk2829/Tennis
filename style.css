@@ -32,10 +32,75 @@ body {
     font-size: 14px;
     height: 100%;
     align-items: center;
+    line-height: 19.6px;
 }
 
 .socials {
     display: flex;
     align-items: center;
     gap: 29.6px;
+}
+
+ .header-title {
+    display: block;
+    height: 201px;
+    width: 636px;
+    font-weight: 700;
+    line-height: 67.2px;
+    color: white;
+    margin: 306px 0 0 312px;
+    font-size: 48px;
+}
+
+.youtube-chanell {
+    display: flex;
+    margin: 60px 0 0 312px; 
+}
+
+.chanell {
+    display: inline-block;
+    vertical-align: auto;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+    color:#fff;
+}
+
+.header-footer {
+    background-color: #8d86c9;
+    width: 315px;
+    height: 151px;
+    margin: 202px 6px 0 6px;
+    height: 151px;
+    width: 315px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    margin: 0 306px;
+}
+
+.type {
+    display: block;
+    margin: 35px 224px 0 35px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    color: white;
+}
+
+.type_of_service {
+    display: block;
+    margin: 17px 60px 40px 35px;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    line-height: 33.6px;
+}
+
+.link {
+    display: block;
+    margin: 77px 40px 54px 0;
 }
